@@ -23,8 +23,8 @@ Rewards:
 Step-1
 
 ```bash
-  Forks Hackclubsal\30 days of python Repository 
-  https://github.com/hackclubsal/30DayOfPython.git
+  Forks Hackclubsal\30DaysOfDSA Repository 
+  https://github.com/hackclubsal/30DaysOfDSA.git
 ```
 Step-2
 
