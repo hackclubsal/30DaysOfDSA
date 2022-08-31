@@ -10,6 +10,9 @@ Rewards:
 - Every  matched criteria participants will get verified certificates from us.
 - Also whoever make sucessful contributions will be nominated in the contributors panel on the Hackclub's official #30DaysOfDSA project.
 
+![30daysofDSA](https://user-images.githubusercontent.com/83156459/187750241-393178e9-1761-41fc-960e-6f704c71fff7.png)
+
+
 
 ## Project Maintainer
 
