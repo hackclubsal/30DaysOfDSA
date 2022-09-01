@@ -32,7 +32,7 @@ Step-1
 Step-2
 
 ```bash
-  open gitbash and type this command = git Clone URL ( git clone url )
+  open gitbash and type this command = git clone URL ( git clone url )
 ```
  Step-3
 
@@ -52,7 +52,7 @@ Step-5
 Step-6
 
 ```bash
-  Add code file in Day(#) Folder ( file name= Day(#)_username.py) ( username = Your Name )
+  Add code file in Day(#) Folder ( file name= Day(#)_username.your language's extension) ( username = Your Name )
 ```
 Step-7
 
