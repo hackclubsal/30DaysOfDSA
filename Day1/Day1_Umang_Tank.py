@@ -1,3 +1,5 @@
+# Day 1: Binary sorted Array in Linear Time
+
 class binarySortedArray:
     def __init__(self, arr):
         self.arr = arr
