@@ -3,6 +3,8 @@ name: "GreetContributor"
 on:
   pull_request:
     types: [opened,synchronize]
+  issues:
+    types: [opened, synchronize]
     
 jobs:
   GreetCommitter: 
