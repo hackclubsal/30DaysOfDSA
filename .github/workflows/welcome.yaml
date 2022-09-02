@@ -1,18 +1,13 @@
-
-name: "GreetContributor"
+name: Post welcome comment
 on:
   pull_request:
-    types: [opened,synchronize]
-  issues:
-    types: [opened, synchronize]
-    
+    types: [opened]
 jobs:
-  GreetCommitter: 
+  build:
+    name: Post welcome comment
     runs-on: ubuntu-latest
     steps:
-    - name: "Greet contributor"
-      uses: ibakshay/greet-contributors-action@v3
-      env: 
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      with: 
-        content: "Thank you for taking your time and effort for your contribution :tada:"  
+      - run: gh pr comment $PR_URL --body "Welcome to the repository!"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_URL: ${{ github.event.pull_request.html_url }}
