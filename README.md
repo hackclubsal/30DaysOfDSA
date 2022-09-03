@@ -20,6 +20,8 @@ Rewards:
 - [@aadii0408](https://github.com/aadii0408)
 - [@136tejas](https://github.com/136tejas)
 - [@Nidhir2k1](https://github.com/Nidhir2k1)
+- [@charmiiii02](https://github.com/charmiiii02)
+- [@Dharmisheth](https://github.com/Dharmisheth)
 
 ## Process for upload your work
 
