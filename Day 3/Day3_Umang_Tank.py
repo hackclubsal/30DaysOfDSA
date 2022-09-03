@@ -1,3 +1,5 @@
+# BinarySearch in 2D array
+
 
 class Search2D:
     def __init__(self, matrix):
@@ -26,7 +28,7 @@ if __name__ == "__main__":
               [3, 6, 9, 16, 22],
               [10, 13, 14, 17, 24],
               [18, 21, 23, 26, 30]]
-              
+
     target = 50
     obj = Search2D(matrix)
     print(obj.search(target))
