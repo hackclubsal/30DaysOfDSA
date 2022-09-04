@@ -23,7 +23,11 @@ bool searchMatrix(vector<vector<int>> &matrix, int target)
 int main()
 {
     int n,m,a,target;
-    cin>>n>>m;
+    cout<<"Enter number of rows:"<<endl;
+    cin>>n;
+    cout<<"Enter number of cols:"<<endl;
+    cin>>m;
+    cout<<"Enter elements of matrix:"<<endl;
     vector<vector<int>> nums;
     for(int i=0; i<n; i++)
     {
@@ -36,9 +40,13 @@ int main()
         nums.push_back(temp);
         temp.clear();
     }
+    cout<<"Enter target value:"<<endl;
     cin>>target;
 
-    cout<<searchMatrix(nums, target);
+    if(searchMatrix(nums, target))
+        cout<<"true";
+    else
+        cout<<"false";
 
     return 0;
 }
