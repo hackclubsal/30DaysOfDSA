@@ -1,5 +1,4 @@
 #Day 1
-
 def sort(i):
     zeros = i.count(0)
 
