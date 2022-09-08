@@ -1,6 +1,17 @@
 # Q8) Given an integer array N, find the contiguous subarray which has the largest sum and return its sum.
 # Input: N = [-2, -3, 4, -1, -2, 1, 5, -3]
 
+"""
+Example-1: 
+- Input: N = [-2,1,-3,4,-1,2,1,-5,4]
+- Output: 6
+
+Example-2:
+- Input: N= [5,4,-1,7,8]
+- Output: 23
+"""
+
+
 class MaxSubArray:
     def __init__(self, array):
         self.array = array
