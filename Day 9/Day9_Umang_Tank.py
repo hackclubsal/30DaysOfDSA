@@ -1,3 +1,12 @@
+"""
+A version number consists of one or more revisions connected by a dot.
+Each revisions consists of digits and may contain leading zeroes. Each revision consists atleast one digit.
+
+Revisions are 0-indexed from left to right.
+To compare two versions, compare revisions in the left-to-right order. Revisions are compared using their integer value ignoring any leading zeroes.
+
+"""
+
 
 class Checkversion:
     def __init__(self, version1, version2):
@@ -20,7 +29,7 @@ class Checkversion:
 
 
 if __name__ == '__main__':
-    v1 =  "1.001.2"
+    v1 = "1.001.2"
     v2 = "1.1.2"
     check = Checkversion(v1, v2)
     check.compare()
