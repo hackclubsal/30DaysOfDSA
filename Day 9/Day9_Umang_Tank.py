@@ -5,6 +5,20 @@ Each revisions consists of digits and may contain leading zeroes. Each revision 
 Revisions are 0-indexed from left to right.
 To compare two versions, compare revisions in the left-to-right order. Revisions are compared using their integer value ignoring any leading zeroes.
 
+
+Example 1:
+- version 1: 1.1.0
+- version 2: 1.2.0
+
+Output:
+- version 2 > version 1.
+
+Example 2:
+- version 1: 1.001.2
+- version 2: 1.1.2
+
+Output:
+- version 2 = version 1.
 """
 
 
