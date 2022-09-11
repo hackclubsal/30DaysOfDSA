@@ -12,8 +12,8 @@ for (a,b) in zip(v1, v2):
     v22 += str(int(b))
 
 if int(v22)>int(v11):
-    print("v2")
+    print("Version 2 > Version 1")
 elif int(v22)<int(v11):
-    print("v1")
+    print("Version 2 < Version 1")
 else:
-    print("both")
+    print("Version 2 = Version 1")
